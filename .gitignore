@@ -1,0 +1,6 @@
+# Project exclude paths
+/event/target/
+/java-bean-demo/target/
+/netty-demo/target/
+/redis-client/target/
+/spi-demo/target/

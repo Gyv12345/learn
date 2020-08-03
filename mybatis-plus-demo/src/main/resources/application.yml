@@ -1,0 +1,16 @@
+# mybatis-plus 配置
+server:
+  port: 8270
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+    username: root
+    password: root
+mybatis-plus:
+  # 如果是放在resource目录 classpath:/mapper/*Mapper.xml
+  mapper-locations: classpath:/mapper/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeEnumsPackage: cn.yt4j.mybatisplusdemo.enums
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

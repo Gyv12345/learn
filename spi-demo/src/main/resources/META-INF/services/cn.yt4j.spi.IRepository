@@ -1,0 +1,2 @@
+cn.yt4j.spi.MongoRepository
+cn.yt4j.spi.MysqlRepository

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yt4j.esdemo.dao.MallGoodsDao">
+
+    <resultMap type="cn.yt4j.esdemo.entity.MallGoods" id="MallGoodsMap">
+        <id property="id" column="id"/>
+        <result property="brandId" column="brand_id"/>
+        <result property="categoryId" column="category_id"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="goodsSn" column="goods_sn"/>
+        <result property="name" column="name"/>
+        <result property="gallery" column="gallery"/>
+        <result property="keywords" column="keywords"/>
+        <result property="brief" column="brief"/>
+        <result property="sort" column="sort"/>
+        <result property="picUrl" column="pic_url"/>
+        <result property="shareUrl" column="share_url"/>
+        <result property="unit" column="unit"/>
+        <result property="counterPrice" column="counter_price"/>
+        <result property="retailPrice" column="retail_price"/>
+        <result property="detail" column="detail"/>
+        <result property="isOnSale" column="is_on_sale"/>
+        <result property="isHot" column="is_hot"/>
+        <result property="isNew" column="is_new"/>
+        <result property="isRecommend" column="is_recommend"/>
+        <result property="deleted" column="deleted"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+</mapper>
