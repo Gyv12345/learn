@@ -15,7 +15,7 @@
         <xxl-job.version>2.2.0</xxl-job.version>
         <knife4j.version>2.0.2</knife4j.version>
         <dynamic-datasource.version>3.1.0</dynamic-datasource.version>
-        <netty.version>4.1.6.Final</netty.version>
+        <netty.version>4.1.42.Final</netty.version>
     </properties>
 
     <dependencyManagement>
