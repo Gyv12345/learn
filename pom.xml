@@ -15,6 +15,7 @@
         <module>event</module>
         <module>netty-demo</module>
         <module>java-bean-demo</module>
+        <module>commons-pool-demo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

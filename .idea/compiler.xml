@@ -18,6 +18,7 @@
         <module name="redis-demo" />
         <module name="learn-pom" />
         <module name="event" />
+        <module name="commons-pool-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

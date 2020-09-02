@@ -16,6 +16,8 @@
         <knife4j.version>2.0.2</knife4j.version>
         <dynamic-datasource.version>3.1.0</dynamic-datasource.version>
         <netty.version>4.1.42.Final</netty.version>
+        <http-client.version>4.5.12</http-client.version>
+        <commons-pool>2.8.1</commons-pool>
     </properties>
 
     <dependencyManagement>
@@ -67,6 +69,19 @@
                 <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
                 <version>${dynamic-datasource.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${http-client.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons-pool}</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
