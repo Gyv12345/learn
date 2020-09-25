@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: admin
+      username: shichenyang2
+      password: shichenyang2
+      host: 10.10.11.2
+      port: 27017
