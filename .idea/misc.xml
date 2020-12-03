@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/mybatis-plus-demo/pom.xml" />
         <option value="$PROJECT_DIR$/webflux-demo/pom.xml" />
         <option value="$PROJECT_DIR$/fanpin/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
