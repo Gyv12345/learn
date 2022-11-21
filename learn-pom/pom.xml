@@ -12,7 +12,7 @@
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <hutool.version>5.3.3</hutool.version>
         <jjwt.version>0.9.1</jjwt.version>
-        <xxl-job.version>2.2.0</xxl-job.version>
+        <xxl-job.version>2.3.1</xxl-job.version>
         <knife4j.version>2.0.2</knife4j.version>
         <dynamic-datasource.version>3.1.0</dynamic-datasource.version>
         <netty.version>4.1.42.Final</netty.version>
